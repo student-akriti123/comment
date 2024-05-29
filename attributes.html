@@ -9,14 +9,36 @@
     <a href="https://www.techtarget.com/whatis/definition/compiler"> compiler</a>
 <br/>
     <img src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2023-02/Compiler.png" alt="compiler" height="100">
-    <br/>
-    <h1>The a download attribute</h1>
-
-    <p>Click on the image to download it:<p>
-    <a href="/images/myw3schoolsimage.jpg" download>
+     
+<p>Click on the image to download it:<p>
+    <a href="/images/myw3schoolsimage.jpg" download="w3logo">
       <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142">
     </a>
     
+    <p>Notice that the filename of the downloaded file will be saved as "w3logo.jpg" instead of "myw3schoolsimage.jpg".</p>
+    
     <p><b>Note:</b> The download attribute is not supported in IE or Edge (prior version 18), or in Safari (prior version 10.1).</p>
+    <!--ACCEPT FORM TYPE-->
+    <!DOCTYPE html>
+    <html>
+    <body>
+    
+    <h1>The input accept attribute</h1> 
+    
+    <form action="/action_page.php">
+      <label for="img">Select image:</label>
+      <input type="file" id="img" name="img" accept="image/*">
+      <input type="submit">
+    </form>
+    
+    <p><strong>Note:</strong> Because of security issues, this example will not allow you to upload files.</p>
+    
+    </body>
+    </html>
+    
+
+
+
+
 </body>
 </html>
